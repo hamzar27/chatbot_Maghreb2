@@ -1,0 +1,194 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "hi there",
+                "hello",
+                "haroo",
+                "yaw",
+                "wassup",
+                "hi",
+                "hey",
+                "holla",
+                "hello"
+            ],
+            "responses": [
+                "hello thanks for checking in",
+                "hi there, how can i help you"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "bye",
+                "good bye",
+                "see you later"
+            ],
+            "responses": [
+                "have a nice time, welcome back again",
+                "bye bye"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "okay",
+                "Thank you",
+                "thankyou",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me",
+                "wow",
+                "great"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "you're welcome",
+                "My pleasure"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [
+                ""
+            ],
+            "responses": [
+                "Sorry, I didn't understand you",
+                "Please give me more info",
+                "Not sure I understand that"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "name1",
+            "patterns": [
+                "what's your name?",
+                "who are you?"
+            ],
+            "responses": [
+                "I'm just a chat agent. I only exist in the internet",
+                "I am your guide who gonna help you to explore Morroco today"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "my name is "
+
+            ],
+            "responses": [
+                "Oooh great to meet you {n}. How may I assist you {n}",
+                "Oh, I'll keep that in mind {n}"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "cities",
+            "patterns": [
+                "i wanna discover all the cities "
+            ],
+            "responses": [
+                "This is the red city of Morocco which is also known as Marrakech",
+                "This is Tangier , the blue city , located at the North of morocco ,  it has a sense of exotic mystery, the most interesting history, beautiful sights, and unspoiled beaches."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": " red city",
+            "patterns": [
+                "why is called red city"
+            ],
+            "responses": [
+                "because everything in it colored in red , every place also "
+            ],
+            "context": [
+                ""
+            ]
+        },
+
+        {
+            "tag": "blue city",
+            "patterns": [
+                "there is a blue city ","tell me about blue city"
+            ],
+            "responses": [
+                "Yes,there areSights to see in Tangier are.......the medina, Kasbah, tomb of Ibn Batouta, Bazar Tindouf, Rue de la Liberte, St. Andrews Anglican church, the Phoenician Necropolis and Cafe Hafa, both in the upmarket Marshan district."
+            ],
+            "context": [
+                ""
+            ]
+        },
+         {
+            "tag": "sahara1 ",
+            "patterns": [
+                "recommand me a  places in sahra"
+            ],
+            "responses": [
+             "i can recommand , Zagora which is a popular sahara desert city , it is a great starting place for expeditions, quad trips, and camel riding. Also , Ouarzazate which has a fascinating mix of ancient and modern. Then Merzouga . \"\n"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "sahara2 ",
+            "patterns": [
+                "suggest me other city"
+            ],
+            "responses": [
+                " Well , The Sahara Desert is a vast, unique, often barren and occasionally vibrant part of the earth. It covers 30% of the African continent, stretching across an area as large as the United States."
+            ],
+            "context": [
+                ""
+            ]
+        },
+
+        {
+            "tag": "shopping ",
+            "patterns": [
+                "  Is this place red city good for shopping also"
+            ],
+            "responses": [
+                " Yes! Here you can get all the trendy and branded items of every range, traditionnal also modern."
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "special ",
+            "patterns": [
+                "What’s so special about this place?"
+            ],
+            "responses": [
+                "It’s the best place to hang out. A place where you can get almost everything. It’s not only caracterized with places , but also the sens of humour that describe people living in it ,their generosity , how they welcome people from any country around the world, and so many more.."
+            ],
+            "context": [
+                ""
+            ]
+        }
+    ]
+}
+
+
